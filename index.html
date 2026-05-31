@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Supply Chain Tower Agent is an agentic AI chatbot for supply chain visibility, exception analysis, impact assessment, recommendations, and human handoff."
+    />
+    <title>Supply Chain Tower Agent</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Supply Chain Tower Agent home">
+        <span class="brand-mark">SCT</span>
+        <span>Supply Chain Tower Agent</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#value">Value</a>
+        <a href="#chatbot">Live Chatbot</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#demo">Demo</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Agentic AI for supply chain control towers</p>
+          <h1>Turn scattered supply chain data into actionable decisions.</h1>
+          <p class="hero-text">
+            A live chatbot for shipment delays, supplier risk, inventory shortages, order exceptions,
+            impact assessment, recommendations, and human handoff.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#chatbot">Open Live Chatbot</a>
+            <a class="button secondary" href="#demo">Watch Demo</a>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="Supply Chain Tower Agent capabilities">
+          <div class="status-row">
+            <span class="status-dot"></span>
+            <span>Live on Hugging Face Spaces</span>
+          </div>
+          <div class="metric-grid">
+            <div>
+              <strong>5</strong>
+              <span>Agent roles</span>
+            </div>
+            <div>
+              <strong>15+</strong>
+              <span>Data sheets</span>
+            </div>
+            <div>
+              <strong>24/7</strong>
+              <span>Ask mode</span>
+            </div>
+            <div>
+              <strong>1</strong>
+              <span>Handoff path</span>
+            </div>
+          </div>
+          <div class="sample-card">
+            <span>Example question</span>
+            <p>Which orders may miss promised delivery, and what is the revenue at risk?</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="value" class="section value-section">
+        <div class="section-heading">
+          <p class="eyebrow">Why it matters</p>
+          <h2>Built for supply chain teams that need faster exception response.</h2>
+        </div>
+        <div class="value-grid">
+          <article>
+            <h3>Detect Risks Earlier</h3>
+            <p>Monitor delayed shipments, supplier risk, inventory shortages, and order exceptions from one interface.</p>
+          </article>
+          <article>
+            <h3>Prioritize By Impact</h3>
+            <p>Understand affected orders, revenue at risk, delay duration, and business severity before taking action.</p>
+          </article>
+          <article>
+            <h3>Recommend Next Steps</h3>
+            <p>Suggest rerouting, expediting, inventory reallocation, supplier switching, or human approval routing.</p>
+          </article>
+          <article>
+            <h3>Reduce Manual Analysis</h3>
+            <p>Let users ask natural language questions instead of searching across multiple operational spreadsheets.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="chatbot" class="section chatbot-section">
+        <div class="section-heading compact">
+          <p class="eyebrow">Live Agent</p>
+          <h2>Ask the deployed chatbot.</h2>
+          <p>
+            Use the ready-made prompt tiles inside the app, or ask your own question against the backend supply chain data.
+          </p>
+        </div>
+        <div class="chatbot-shell">
+          <iframe
+            title="Supply Chain Tower Agent Hugging Face Space"
+            src="https://pimparkaramit-supplychaintower-agent.hf.space"
+            loading="lazy"
+            allow="clipboard-read; clipboard-write"
+          ></iframe>
+        </div>
+        <div class="prompt-strip" aria-label="Example chatbot questions">
+          <span>Try asking:</span>
+          <p>Summarize the top 5 supply chain risks right now.</p>
+          <p>Which orders may miss promised delivery?</p>
+          <p>Recommend the best action for the Bangalore plant shortage.</p>
+        </div>
+      </section>
+
+      <section id="architecture" class="section architecture-section">
+        <div class="section-heading">
+          <p class="eyebrow">How it works</p>
+          <h2>Agentic AI routes each question to the right specialist path.</h2>
+        </div>
+        <div class="flow-grid">
+          <article>
+            <span>01</span>
+            <h3>Orchestrator Agent</h3>
+            <p>Understands the question, chooses the specialist agent, and combines tool results into a clear answer.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Monitoring Agent</h3>
+            <p>Finds operational exceptions across shipments, inventory, suppliers, production, and alerts.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Analysis & Impact</h3>
+            <p>Explains root cause, affected orders, customer impact, delay hours, and revenue at risk.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Recommendation & Handoff</h3>
+            <p>Suggests the next best action and routes high-cost or high-severity cases for human approval.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="demo" class="section demo-section">
+        <div class="section-heading compact">
+          <p class="eyebrow">Video demo</p>
+          <h2>See the chatbot experience in action.</h2>
+        </div>
+        <video class="demo-video" controls preload="metadata" poster="">
+          <source src="assets/supplychaintowe-agent_v1.0.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section class="section audience-section">
+        <div>
+          <p class="eyebrow">Intended users</p>
+          <h2>Designed for operational decision makers.</h2>
+        </div>
+        <ul class="audience-list">
+          <li>Supply chain planners</li>
+          <li>Logistics managers</li>
+          <li>Procurement teams</li>
+          <li>Control tower analysts</li>
+          <li>Operations leaders</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Supply Chain Tower Agent</span>
+      <a href="https://huggingface.co/spaces/pimparkaramit/SupplyChainTower-Agent">View Hugging Face Space</a>
+    </footer>
+  </body>
+</html>
